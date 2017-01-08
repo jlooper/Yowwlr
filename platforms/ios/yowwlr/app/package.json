@@ -1,0 +1,50 @@
+{
+    "private": false,
+    "nativescript": {
+        "id": "org.nativescript.yowwlr"
+    },
+    "name": "Yowwlr",
+    "main": "main.js",
+    "version": "2.4.3",
+    "author": "Telerik <support@telerik.com>",
+    "description": "Twitter for Cats",
+    "license": "BSD",
+    "keywords": [
+        "telerik",
+        "mobile",
+        "angular",
+        "nativescript",
+        "{N}",
+        "tns",
+        "appbuilder",
+        "template"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/NativeScript/template-hello-world-ng"
+    },
+    "homepage": "https://github.com/NativeScript/template-hello-world-ng",
+    "android": {
+        "v8Flags": "--expose_gc"
+    },
+    "dependencies": {
+        "nativescript-theme-core": "^0.2.1",
+        "nativescript-angular": "1.2.0",
+        "@angular/core": "2.2.1",
+        "@angular/common": "2.2.1",
+        "@angular/compiler": "2.2.1",
+        "@angular/http": "2.2.1",
+        "@angular/platform-browser": "2.2.1",
+        "@angular/platform-browser-dynamic": "2.2.1",
+        "@angular/forms": "2.2.1",
+        "@angular/router": "3.2.1",
+        "rxjs": "5.0.0-beta.12",
+        "reflect-metadata": "~0.1.8"
+    },
+    "devDependencies": {
+        "zone.js": "~0.6.21",
+        "typescript": "~2.0.10",
+        "nativescript-dev-typescript": "^0.3.2",
+        "nativescript-dev-android-snapshot": "^0.*.*"
+    }
+}

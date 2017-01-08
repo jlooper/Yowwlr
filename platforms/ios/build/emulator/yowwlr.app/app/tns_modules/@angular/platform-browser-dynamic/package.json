@@ -1,0 +1,52 @@
+{
+  "name": "@angular/platform-browser-dynamic",
+  "version": "2.2.1",
+  "description": "Angular - library for using Angular in a web browser with JIT compilation",
+  "main": "bundles/platform-browser-dynamic.umd.js",
+  "module": "index.js",
+  "typings": "index.d.ts",
+  "author": {
+    "name": "angular"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/core": "2.2.1",
+    "@angular/common": "2.2.1",
+    "@angular/compiler": "2.2.1",
+    "@angular/platform-browser": "2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.git"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular/issues"
+  },
+  "homepage": "https://github.com/angular/angular#readme",
+  "_id": "@angular/platform-browser-dynamic@2.2.1",
+  "scripts": {},
+  "_shasum": "561d32982fee4b68b474ba474c7f3c4d94bfeb6c",
+  "_from": "@angular/platform-browser-dynamic@2.2.1",
+  "_resolved": "https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.2.1.tgz",
+  "_npmVersion": "3.10.8",
+  "_nodeVersion": "6.9.1",
+  "_npmUser": {
+    "name": "angular",
+    "email": "angular-core+npm@google.com"
+  },
+  "dist": {
+    "shasum": "561d32982fee4b68b474ba474c7f3c4d94bfeb6c",
+    "tarball": "https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.2.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "angular",
+      "email": "angular-core+npm@google.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/platform-browser-dynamic-2.2.1.tgz_1479411149589_0.9771876884624362"
+  },
+  "directories": {}
+}

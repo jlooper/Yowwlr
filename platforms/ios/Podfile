@@ -1,0 +1,29 @@
+use_frameworks!
+
+target "yowwlr" do
+# Begin Podfile - /Users/Looper/Documents/NativeScript/yowwlr/node_modules/nativescript-plugin-firebase/platforms/ios/Podfile 
+ pod 'Firebase', '~> 3.11.0'
+pod 'Firebase/Database'
+pod 'Firebase/Auth'
+
+# Uncomment if you want to enable Remote Config
+#pod 'Firebase/RemoteConfig'
+
+# Uncomment if you want to enable Crash Reporting
+#pod 'Firebase/Crash'
+
+# Uncomment if you want to enable FCM (Firebase Cloud Messaging)
+#pod 'Firebase/Messaging'
+
+# Uncomment if you want to enable Firebase Storage
+#pod 'Firebase/Storage'
+
+# Uncomment if you want to enable Facebook Authentication
+#pod 'FBSDKCoreKit'
+#pod 'FBSDKLoginKit'
+
+# Uncomment if you want to enable Google Authentication
+#pod 'GoogleSignIn' 
+ # End Podfile 
+
+end

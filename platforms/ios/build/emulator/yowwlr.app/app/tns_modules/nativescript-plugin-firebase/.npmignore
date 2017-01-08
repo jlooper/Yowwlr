@@ -1,0 +1,8 @@
+.idea
+.vscode
+platforms/android/libraryproject/
+docs
+README.md
+CHANGELOG.md
+node_modules
+*.tgz

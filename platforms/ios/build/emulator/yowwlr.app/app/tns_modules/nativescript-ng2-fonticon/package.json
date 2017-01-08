@@ -1,0 +1,96 @@
+{
+  "_args": [
+    [
+      "nativescript-ng2-fonticon",
+      "/Users/Looper/Documents/NativeScript/yowwlr"
+    ]
+  ],
+  "_from": "nativescript-ng2-fonticon@latest",
+  "_id": "nativescript-ng2-fonticon@1.3.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/nativescript-ng2-fonticon",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/nativescript-ng2-fonticon-1.3.4.tgz_1481784779823_0.4240755341015756"
+  },
+  "_npmUser": {
+    "email": "walkerrunpdx@gmail.com",
+    "name": "walkerrunpdx"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "nativescript-ng2-fonticon",
+    "raw": "nativescript-ng2-fonticon",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-ng2-fonticon/-/nativescript-ng2-fonticon-1.3.4.tgz",
+  "_shasum": "d66f09b0e58c88f7afe527fb1cf36f48e9abc9c8",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-ng2-fonticon",
+  "_where": "/Users/Looper/Documents/NativeScript/yowwlr",
+  "author": {
+    "email": "walkerrunpdx@gmail.com",
+    "name": "Nathan Walker"
+  },
+  "bugs": {
+    "url": "https://github.com/NathanWalker/nativescript-ng2-fonticon/issues"
+  },
+  "contributors": [
+    {
+      "email": "nathan@master-technology",
+      "name": "Nathanael Anderson",
+      "url": "https://github.com/nathanaela"
+    }
+  ],
+  "dependencies": {},
+  "description": "Use custom font icon collections seamlessly with NativeScript + Angular2.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "d66f09b0e58c88f7afe527fb1cf36f48e9abc9c8",
+    "tarball": "https://registry.npmjs.org/nativescript-ng2-fonticon/-/nativescript-ng2-fonticon-1.3.4.tgz"
+  },
+  "gitHead": "8cd4202d52e546813ce16b2bb6f61130b7d9b2c5",
+  "homepage": "https://github.com/NathanWalker/nativescript-ng2-fonticon#readme",
+  "keywords": [
+    "angular2",
+    "ng2",
+    "nativescript",
+    "icon",
+    "font icon",
+    "font"
+  ],
+  "license": "MIT",
+  "main": "nativescript-ng2-fonticon",
+  "maintainers": [
+    {
+      "email": "walkerrunpdx@gmail.com",
+      "name": "walkerrunpdx"
+    }
+  ],
+  "name": "nativescript-ng2-fonticon",
+  "nativescript": {
+    "platforms": {
+      "android": "2.3.0",
+      "ios": "2.3.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanWalker/nativescript-ng2-fonticon.git"
+  },
+  "scripts": {},
+  "typings": "index.d.ts",
+  "version": "1.3.4"
+}

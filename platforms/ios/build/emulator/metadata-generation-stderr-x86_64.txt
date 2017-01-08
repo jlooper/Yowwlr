@@ -1,0 +1,120 @@
+clang version 3.9.0 (tags/RELEASE_390/final)
+Target: x86_64-apple-darwin16.3.0
+Thread model: posix
+InstalledDir: 
+clang Invocation:
+ "clang-tool" "-cc1" "-triple" "x86_64-apple-ios8.0.0" "-Wdeprecated-objc-isa-usage" "-Werror=deprecated-objc-isa-usage" "-Werror=implicit-function-declaration" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-munwind-tables" "-target-cpu" "core2" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk" "-iquote" "/Users/Looper/Library/Developer/Xcode/DerivedData/yowwlr-asjrhbfqsrgvoveyrtlpgzynezma/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers" "-iquote" "/Users/Looper/Library/Developer/Xcode/DerivedData/yowwlr-asjrhbfqsrgvoveyrtlpgzynezma/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers" "-isystem" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public" "-isystem" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/Firebase" "-isystem" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseAnalytics" "-isystem" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseAuth" "-isystem" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseCore" "-isystem" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseDatabase" "-isystem" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseInstanceID" "-isystem" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/GoogleInterchangeUtilities" "-isystem" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/GoogleSymbolUtilities" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/build/emulator/include" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Firebase/Core/Sources" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/Firebase" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseAnalytics" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseAuth" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseCore" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseDatabase" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseInstanceID" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/GoogleInterchangeUtilities" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/GoogleSymbolUtilities" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/internal" "-F/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/build/emulator" "-F/Users/Looper/Library/Developer/Xcode/DerivedData/yowwlr-asjrhbfqsrgvoveyrtlpgzynezma/Build/Products/Debug-iphonesimulator/GTMSessionFetcher" "-F/Users/Looper/Library/Developer/Xcode/DerivedData/yowwlr-asjrhbfqsrgvoveyrtlpgzynezma/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac" "-F/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseAnalytics/Frameworks/frameworks" "-F/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseAuth/Frameworks/frameworks" "-F/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseCore/Frameworks/frameworks" "-F/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseDatabase/Frameworks" "-F/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks" "-F/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/GoogleInterchangeUtilities/Frameworks/frameworks" "-F/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/GoogleSymbolUtilities/Frameworks/frameworks" "-F/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/internal/" "-F/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/../../lib/iOS" "-F../../lib/iOS" "-D" "COCOAPODS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseAnalytics"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseAuth"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseCore"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseDatabase"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/GoogleInterchangeUtilities"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/GoogleSymbolUtilities"
+ignoring nonexistent directory "/Users/Looper/Library/Developer/Xcode/DerivedData/yowwlr-asjrhbfqsrgvoveyrtlpgzynezma/Build/Products/Debug-iphonesimulator/GTMSessionFetcher"
+ignoring nonexistent directory "/Users/Looper/Library/Developer/Xcode/DerivedData/yowwlr-asjrhbfqsrgvoveyrtlpgzynezma/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac"
+ignoring nonexistent directory "../../lib/iOS"
+ignoring nonexistent directory "/Users/Looper/Library/Developer/Xcode/DerivedData/yowwlr-asjrhbfqsrgvoveyrtlpgzynezma/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers"
+ignoring nonexistent directory "/Users/Looper/Library/Developer/Xcode/DerivedData/yowwlr-asjrhbfqsrgvoveyrtlpgzynezma/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseAnalytics"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseAuth"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseCore"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseDatabase"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/GoogleInterchangeUtilities"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/GoogleSymbolUtilities"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/local/include"
+ignoring duplicate directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/Firebase"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseInstanceID"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Firebase/Core/Sources
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/internal
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/build/emulator (framework directory)
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseAnalytics/Frameworks/frameworks (framework directory)
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseAuth/Frameworks/frameworks (framework directory)
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseCore/Frameworks/frameworks (framework directory)
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseDatabase/Frameworks (framework directory)
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks (framework directory)
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/GoogleInterchangeUtilities/Frameworks/frameworks (framework directory)
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/GoogleSymbolUtilities/Frameworks/frameworks (framework directory)
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/internal (framework directory)
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/../../lib/iOS (framework directory)
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/Firebase
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseInstanceID
+ ../lib/clang/3.9.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks (framework directory)
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/Library/Frameworks (framework directory)
+End of search list.
+clang version 3.9.0 (tags/RELEASE_390/final)
+Target: x86_64-apple-darwin16.3.0
+Thread model: posix
+InstalledDir: 
+clang Invocation:
+ "objc-metadata-generator" "-cc1" "-triple" "x86_64-apple-ios8.0.0" "-Wdeprecated-objc-isa-usage" "-Werror=deprecated-objc-isa-usage" "-Werror=implicit-function-declaration" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-munwind-tables" "-target-cpu" "core2" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk" "-iquote" "/Users/Looper/Library/Developer/Xcode/DerivedData/yowwlr-asjrhbfqsrgvoveyrtlpgzynezma/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers" "-iquote" "/Users/Looper/Library/Developer/Xcode/DerivedData/yowwlr-asjrhbfqsrgvoveyrtlpgzynezma/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers" "-isystem" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public" "-isystem" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/Firebase" "-isystem" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseAnalytics" "-isystem" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseAuth" "-isystem" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseCore" "-isystem" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseDatabase" "-isystem" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseInstanceID" "-isystem" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/GoogleInterchangeUtilities" "-isystem" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/GoogleSymbolUtilities" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/build/emulator/include" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Firebase/Core/Sources" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/Firebase" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseAnalytics" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseAuth" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseCore" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseDatabase" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseInstanceID" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/GoogleInterchangeUtilities" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/GoogleSymbolUtilities" "-I" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/internal" "-F/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/build/emulator" "-F/Users/Looper/Library/Developer/Xcode/DerivedData/yowwlr-asjrhbfqsrgvoveyrtlpgzynezma/Build/Products/Debug-iphonesimulator/GTMSessionFetcher" "-F/Users/Looper/Library/Developer/Xcode/DerivedData/yowwlr-asjrhbfqsrgvoveyrtlpgzynezma/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac" "-F/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseAnalytics/Frameworks/frameworks" "-F/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseAuth/Frameworks/frameworks" "-F/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseCore/Frameworks/frameworks" "-F/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseDatabase/Frameworks" "-F/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks" "-F/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/GoogleInterchangeUtilities/Frameworks/frameworks" "-F/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/GoogleSymbolUtilities/Frameworks/frameworks" "-F/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/internal/" "-F/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/../../lib/iOS" "-F../../lib/iOS" "-D" "COCOAPODS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+
+clang -cc1 version 3.9.0 based upon LLVM 3.9.0 default target x86_64-apple-darwin16.3.0
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseAnalytics"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseAuth"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseCore"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseDatabase"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/GoogleInterchangeUtilities"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/GoogleSymbolUtilities"
+ignoring nonexistent directory "/Users/Looper/Library/Developer/Xcode/DerivedData/yowwlr-asjrhbfqsrgvoveyrtlpgzynezma/Build/Products/Debug-iphonesimulator/GTMSessionFetcher"
+ignoring nonexistent directory "/Users/Looper/Library/Developer/Xcode/DerivedData/yowwlr-asjrhbfqsrgvoveyrtlpgzynezma/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac"
+ignoring nonexistent directory "../../lib/iOS"
+ignoring nonexistent directory "/Users/Looper/Library/Developer/Xcode/DerivedData/yowwlr-asjrhbfqsrgvoveyrtlpgzynezma/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/Headers"
+ignoring nonexistent directory "/Users/Looper/Library/Developer/Xcode/DerivedData/yowwlr-asjrhbfqsrgvoveyrtlpgzynezma/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseAnalytics"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseAuth"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseCore"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseDatabase"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/GoogleInterchangeUtilities"
+ignoring nonexistent directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/GoogleSymbolUtilities"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/local/include"
+ignoring duplicate directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/Firebase"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseInstanceID"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Firebase/Core/Sources
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/internal
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/build/emulator (framework directory)
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseAnalytics/Frameworks/frameworks (framework directory)
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseAuth/Frameworks/frameworks (framework directory)
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseCore/Frameworks/frameworks (framework directory)
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseDatabase/Frameworks (framework directory)
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseInstanceID/Frameworks/frameworks (framework directory)
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/GoogleInterchangeUtilities/Frameworks/frameworks (framework directory)
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/GoogleSymbolUtilities/Frameworks/frameworks (framework directory)
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/internal (framework directory)
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/../../lib/iOS (framework directory)
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/Firebase
+ /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/Headers/Public/FirebaseInstanceID
+ ../lib/clang/3.9.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks (framework directory)
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/Library/Frameworks (framework directory)
+End of search list.
+In file included from umbrella.h:554:
+In file included from /Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h:1:
+/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h:34:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, readwrite) FIRAnalyticsConfiguration *analyticsConfiguration;
+^
+/Users/Looper/Documents/NativeScript/yowwlr/platforms/ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h:34:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:760:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/include/os/log.h:35:2: error: using os/log.h requires Xcode 8 or later
+#error using os/log.h requires Xcode 8 or later
+ ^
+2 warnings and 1 error generated.

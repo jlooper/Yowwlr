@@ -1,0 +1,50 @@
+{
+  "name": "@angular/forms",
+  "version": "2.2.1",
+  "description": "Angular - directives and services for creating forms",
+  "main": "bundles/forms.umd.js",
+  "module": "index.js",
+  "typings": "index.d.ts",
+  "author": {
+    "name": "angular"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/core": "2.2.1",
+    "@angular/common": "2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.git"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular/issues"
+  },
+  "homepage": "https://github.com/angular/angular#readme",
+  "_id": "@angular/forms@2.2.1",
+  "scripts": {},
+  "_shasum": "0e7154acc5127c583b4b52c59eac45d672c29da4",
+  "_from": "@angular/forms@2.2.1",
+  "_resolved": "https://registry.npmjs.org/@angular/forms/-/forms-2.2.1.tgz",
+  "_npmVersion": "3.10.8",
+  "_nodeVersion": "6.9.1",
+  "_npmUser": {
+    "name": "angular",
+    "email": "angular-core+npm@google.com"
+  },
+  "dist": {
+    "shasum": "0e7154acc5127c583b4b52c59eac45d672c29da4",
+    "tarball": "https://registry.npmjs.org/@angular/forms/-/forms-2.2.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "angular",
+      "email": "angular-core+npm@google.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/forms-2.2.1.tgz_1479411134534_0.5369295950513333"
+  },
+  "directories": {}
+}

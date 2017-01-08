@@ -1,0 +1,27 @@
+.list-group {
+  .list-group-item {
+    color: $primary;
+    padding: 20;
+    font-size: 16;
+
+    .thumb {
+      stretch: fill;
+      width: 40;
+      height: 40;
+      margin-right: 10;
+    }
+
+    &.active {
+      background-color: $grey;
+    }
+
+    .list-group-item-heading {
+      
+    }
+
+    .list-group-item-text {
+      color: $secondary;
+      font-size: 14;
+    }
+  }
+}

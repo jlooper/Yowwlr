@@ -1,0 +1,51 @@
+{
+  "name": "@angular/http",
+  "version": "2.2.1",
+  "description": "Angular - the http service",
+  "main": "bundles/http.umd.js",
+  "module": "index.js",
+  "typings": "index.d.ts",
+  "author": {
+    "name": "angular"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "rxjs": "5.0.0-beta.12",
+    "@angular/core": "2.2.1",
+    "@angular/platform-browser": "2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.git"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/angular/issues"
+  },
+  "homepage": "https://github.com/angular/angular#readme",
+  "_id": "@angular/http@2.2.1",
+  "scripts": {},
+  "_shasum": "1626884a6c5f0cc602ce9d81e7420fcc02db3353",
+  "_from": "@angular/http@2.2.1",
+  "_resolved": "https://registry.npmjs.org/@angular/http/-/http-2.2.1.tgz",
+  "_npmVersion": "3.10.8",
+  "_nodeVersion": "6.9.1",
+  "_npmUser": {
+    "name": "angular",
+    "email": "angular-core+npm@google.com"
+  },
+  "dist": {
+    "shasum": "1626884a6c5f0cc602ce9d81e7420fcc02db3353",
+    "tarball": "https://registry.npmjs.org/@angular/http/-/http-2.2.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "angular",
+      "email": "angular-core+npm@google.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/http-2.2.1.tgz_1479411139674_0.272125058574602"
+  },
+  "directories": {}
+}

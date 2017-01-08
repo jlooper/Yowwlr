@@ -1,0 +1,53 @@
+{
+  "name": "nativescript-theme-core",
+  "version": "0.2.6",
+  "description": "Telerik NativeScript Core Theme",
+  "author": {
+    "name": "Telerik",
+    "email": "support@telerik.com"
+  },
+  "homepage": "https://www.nativescript.org",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NativeScript/theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NativeScript/theme/issues"
+  },
+  "_id": "nativescript-theme-core@0.2.6",
+  "scripts": {},
+  "_shasum": "ca27c5030a1619cc8148f436330af5d2d381f629",
+  "_from": "nativescript-theme-core@>=0.2.1 <0.3.0",
+  "_npmVersion": "3.10.9",
+  "_nodeVersion": "6.9.1",
+  "_npmUser": {
+    "name": "walkerrunpdx",
+    "email": "walkerrunpdx@gmail.com"
+  },
+  "dist": {
+    "shasum": "ca27c5030a1619cc8148f436330af5d2d381f629",
+    "tarball": "https://registry.npmjs.org/nativescript-theme-core/-/nativescript-theme-core-0.2.6.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "tjvantoll",
+      "email": "tj.vantoll@gmail.com"
+    },
+    {
+      "name": "vakrilov",
+      "email": "alexander.vakrilov@gmail.com"
+    },
+    {
+      "name": "walkerrunpdx",
+      "email": "walkerrunpdx@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/nativescript-theme-core-0.2.6.tgz_1479832130157_0.2662058232817799"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/nativescript-theme-core/-/nativescript-theme-core-0.2.6.tgz",
+  "readme": "ERROR: No README data found!"
+}

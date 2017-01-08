@@ -1,0 +1,7 @@
+.slider {
+  background-color: $accent;
+  &[isEnabled=false]{
+    background-color: $grey;
+    color: $grey;
+  }
+}

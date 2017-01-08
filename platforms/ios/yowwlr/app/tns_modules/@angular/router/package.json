@@ -1,0 +1,57 @@
+{
+  "name": "@angular/router",
+  "version": "3.2.1",
+  "description": "Angular - the routing library",
+  "main": "bundles/router.umd.js",
+  "module": "index.js",
+  "typings": "index.d.ts",
+  "keywords": [
+    "angular2",
+    "angular",
+    "router"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular.git"
+  },
+  "author": {
+    "name": "angular"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angular/angular/issues"
+  },
+  "homepage": "https://github.com/angular/angular/blob/master/modules/%40angular/router/README.md",
+  "peerDependencies": {
+    "@angular/core": "2.2.1",
+    "@angular/common": "2.2.1",
+    "@angular/platform-browser": "2.2.1",
+    "rxjs": "5.0.0-beta.12"
+  },
+  "_id": "@angular/router@3.2.1",
+  "scripts": {},
+  "_shasum": "eeace722a5a222bd6b1379df7a5bc580ace093ca",
+  "_from": "@angular/router@3.2.1",
+  "_resolved": "https://registry.npmjs.org/@angular/router/-/router-3.2.1.tgz",
+  "_npmVersion": "3.10.8",
+  "_nodeVersion": "6.9.1",
+  "_npmUser": {
+    "name": "angular",
+    "email": "angular-core+npm@google.com"
+  },
+  "dist": {
+    "shasum": "eeace722a5a222bd6b1379df7a5bc580ace093ca",
+    "tarball": "https://registry.npmjs.org/@angular/router/-/router-3.2.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "angular",
+      "email": "angular-core+npm@google.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/router-3.2.1.tgz_1479411165789_0.47943246527574956"
+  },
+  "directories": {}
+}

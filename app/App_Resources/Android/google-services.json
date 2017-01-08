@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "565515749842",
+    "firebase_url": "https://yowwlr.firebaseio.com",
+    "project_id": "yowwlr",
+    "storage_bucket": "yowwlr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565515749842:android:526b263787bb1079",
+        "android_client_info": {
+          "package_name": "org.nativescript.yowwlr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565515749842-6j8tq2fpliqsm4kl79rdppios4kkootc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTcUeXHNOwOm9HsnQna1hhO8kjnOhqIqM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
