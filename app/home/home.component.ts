@@ -5,6 +5,7 @@ import { BackendService, FirebaseService } from "../services";
 import { RouterExtensions } from 'nativescript-angular/router/router-extensions';
 import { Router } from '@angular/router';
 
+
 @Component({
     moduleId: module.id,
     selector: "yw-home",
