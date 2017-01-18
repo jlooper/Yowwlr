@@ -15,11 +15,11 @@
     <StackLayout align="top" *tabItem="{title: 'Home', iconSource:'res://home'}">
 
         <FlexboxLayout class="row" flexDirection="row">
-            <FlexboxLayout flexDirection="column">
-                <Image src="~/images/k1" width="100" height="100" justifyContent="top"></Image>
+            <FlexboxLayout flexDirection="column" width="25%" flexWrap="nowrap" alignItems="flex-start">
+                <Image src="~/images/k1"></Image>
             </FlexboxLayout>
 
-            <FlexboxLayout flexDirection="row" flexWrap="wrap">
+            <FlexboxLayout flexDirection="row" flexWrap="wrap"  alignItems="flex-start">
                 <Label text="Fluffy Smith" fontSize="15"></Label>
                 <Label text="@fluffysmith" horizontalAlignment="left" fontSize="11"></Label>
                 <Label text="33s" horizontalAlignment="left" fontSize="11"></Label>
