@@ -7,6 +7,10 @@ import { BackendService } from "./services/backend.service";
 import firebase = require("nativescript-plugin-firebase");
 
 firebase.init({
+  onMessageReceivedCallback: function(message) {
+      console.log("Title: " + message.title);
+      console.log("Body: " + message.body);
+    },
   //persist should be set to false as otherwise numbers aren't returned during livesync
   persist: false,
   //storageBucket: 'gs://yowwlr.appspot.com',

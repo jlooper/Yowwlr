@@ -20,8 +20,7 @@ export class HomeComponent implements OnInit {
     UID: string;
 
     public gifts$: Observable<any>;
-    public message$: Observable<any>;
-
+    
     constructor(private routerExtensions: RouterExtensions,
         private firebaseService: FirebaseService,
         private router: Router

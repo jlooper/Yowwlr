@@ -3,4 +3,29 @@
   font-family: FontAwesome, fontawesome-webfont;
 }
 
+.grey {
+  color: lightgray;
+}
+
+.blue {
+  color: deepskyblue;
+}
+
+Label {
+  padding-left: 5;
+  padding-right: 5;
+}
+
+Image {
+  margin-left: 4;
+}
+
+ActionBar {
+  background-color: white;
+}
+.row {
+  border-bottom-width: 1;
+  border-color: lightgray;
+}
+
 @import 'nativescript-theme-core/css/core.light.css';
