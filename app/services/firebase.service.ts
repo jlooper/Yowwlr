@@ -11,6 +11,12 @@ export class FirebaseService {
   constructor(
     private ngZone: NgZone,
   ){}
+
+  getMessage(){ 
+    firebase.addOnMessageReceivedCallback(function (data ){
+        alert(JSON.stringify(data));
+    })
+  }
     
   register(user: User) {
     return firebase.createUser({

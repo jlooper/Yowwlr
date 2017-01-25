@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>565515749842-1kmtkk6sqm98erto2ufifmsd1hhuh7ne.apps.googleusercontent.com</string>
+	<string>676047634538-bvsvu3ep4lo0v0jlue8pu3ulal2725uh.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.565515749842-1kmtkk6sqm98erto2ufifmsd1hhuh7ne</string>
+	<string>com.googleusercontent.apps.676047634538-bvsvu3ep4lo0v0jlue8pu3ulal2725uh</string>
 	<key>API_KEY</key>
-	<string>AIzaSyB-25Aa-eucShHjoFjCclksSYnOM6Qzt8M</string>
+	<string>AIzaSyAEjDXlX2tSvKF19R-hektDM8BXUH-SpqI</string>
 	<key>GCM_SENDER_ID</key>
-	<string>565515749842</string>
+	<string>676047634538</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>org.nativescript.yowwlr</string>
 	<key>PROJECT_ID</key>
-	<string>yowwlr</string>
+	<string>yowwlr-1700c</string>
 	<key>STORAGE_BUCKET</key>
-	<string>yowwlr.appspot.com</string>
+	<string>yowwlr-1700c.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:565515749842:ios:526b263787bb1079</string>
+	<string>1:676047634538:ios:526b263787bb1079</string>
 	<key>DATABASE_URL</key>
-	<string>https://yowwlr.firebaseio.com</string>
+	<string>https://yowwlr-1700c.firebaseio.com</string>
 </dict>
 </plist>

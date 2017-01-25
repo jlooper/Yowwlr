@@ -1,11 +1,10 @@
-import { Injectable } from "@angular/core";
 import { getString, setString } from "application-settings";
 
 const tokenKey = "token";
 
 export class BackendService {
-  
-  static isLoggedIn(): boolean {
+
+static isLoggedIn(): boolean {
     return !!getString("token");
   }
 

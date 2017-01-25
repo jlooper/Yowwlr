@@ -1,13 +1,37 @@
-<FlexboxLayout class="row" flexDirection="row">
+<FlexboxLayout class="row" flexDirection="row" *ngFor="let cat of (cats$ | async)">
+    <FlexboxLayout flexDirection="column" width="25%" flexWrap="nowrap" alignItems="flex-start">
+        <Image src="~/images/k1"></Image>
+    </FlexboxLayout>
+
+    <FlexboxLayout flexDirection="row" flexWrap="wrap" alignItems="flex-start">
+        <Label text="cat.name" fontSize="15"></Label>
+        <Label text="cat.userid" fontSize="11"></Label>
+        <Label text="cat.time" fontSize="11"></Label>
+        <Button alignSelf="flex-end"[text]="'fa-chevron-down' | fonticon" class="fa grey"></Button>
+
+        <Label textWrap="true" text="cat.text"
+            fontSize="12"></Label>
+
+        <FlexboxLayout flexDirection="row">
+            <Button width="25%" flexGrow="1" [text]="'fa-mail-reply' | fonticon" class="fa grey"></Button>
+            <Button width="25%" flexGrow="1" [text]="'fa-retweet' | fonticon" class="fa grey"></Button>
+            <Button width="25%" flexGrow="1" [text]="'fa-heart' | fonticon" class="fa grey"></Button>
+            <Button width="25%" flexGrow="1" [text]="'fa-envelope' | fonticon" class="fa grey"></Button>
+        </FlexboxLayout>
+
+    </FlexboxLayout>
+</FlexboxLayout>
+
+<!--<FlexboxLayout class="row" flexDirection="row">
     <FlexboxLayout flexDirection="column" width="25%" flexWrap="nowrap" alignItems="flex-start">
         <Image src="~/images/k1"></Image>
     </FlexboxLayout>
 
     <FlexboxLayout flexDirection="row" flexWrap="wrap" alignItems="flex-start">
         <Label text="Fluffy Smith" fontSize="15"></Label>
-        <Label text="@fluffysmith" horizontalAlignment="left" fontSize="11"></Label>
-        <Label text="33s" horizontalAlignment="left" fontSize="11"></Label>
-        <Button [text]="'fa-chevron-down' | fonticon" class="fa grey"></Button>
+        <Label text="@fluffysmith" fontSize="11"></Label>
+        <Label text="33s" fontSize="11"></Label>
+        <Button alignSelf="flex-end"[text]="'fa-chevron-down' | fonticon" class="fa grey"></Button>
 
         <Label textWrap="true" text="Chase mice mark territory or intently stare at the same spot. Give attitude hunt anything that moves so inspect anything brought into house"
             fontSize="12"></Label>
@@ -23,8 +47,8 @@
 </FlexboxLayout>
 
 <FlexboxLayout class="row" flexDirection="row">
-    <FlexboxLayout flexDirection="row" flexWrap="wrap">
-        <Image src="~/images/k2" width="100" height="100"></Image>
+    <FlexboxLayout flexDirection="column" width="25%" flexWrap="nowrap" alignItems="flex-start">
+        <Image src="~/images/k2"></Image>
     </FlexboxLayout>
 
     <FlexboxLayout flexDirection="row" flexWrap="wrap">
@@ -47,8 +71,8 @@
 </FlexboxLayout>
 
 <FlexboxLayout class="row" flexDirection="row">
-    <FlexboxLayout flexDirection="row" flexWrap="wrap">
-        <Image src="~/images/k3" width="100" height="100"></Image>
+    <FlexboxLayout flexDirection="column" width="25%" flexWrap="nowrap" alignItems="flex-start">
+        <Image src="~/images/k3"></Image>
     </FlexboxLayout>
 
     <FlexboxLayout flexDirection="row" flexWrap="wrap">
@@ -71,8 +95,8 @@
 </FlexboxLayout>
 
 <FlexboxLayout class="row" flexDirection="row">
-    <FlexboxLayout flexDirection="row" flexWrap="wrap">
-        <Image src="~/images/k4" width="100" height="100"></Image>
+    <FlexboxLayout flexDirection="column" width="25%" flexWrap="nowrap" alignItems="flex-start">
+        <Image src="~/images/k4"></Image>
     </FlexboxLayout>
 
     <FlexboxLayout flexDirection="row" flexWrap="wrap">
@@ -91,4 +115,4 @@
         </FlexboxLayout>
 
     </FlexboxLayout>
-</FlexboxLayout>
+</FlexboxLayout>-->
