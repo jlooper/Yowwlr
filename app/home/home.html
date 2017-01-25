@@ -5,7 +5,7 @@
     <ActionItem ios.position="right">
         <Button [text]="'fa-search' | fonticon" class="fa blue"></Button>
     </ActionItem>
-    <ActionItem ios.position="right">
+    <ActionItem ios.position="right" (tap)="sendYowl()">
         <Button [text]="'fa-pencil-square-o' | fonticon" class="fa blue"></Button>
     </ActionItem>
 </ActionBar>

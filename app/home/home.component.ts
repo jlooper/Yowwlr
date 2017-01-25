@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { Page } from "ui/page";
-import { BackendService, FirebaseService, CatService } from "../services";
+import { BackendService, FirebaseService } from "../services";
+import { Yowl } from "../models";
 import { RouterExtensions } from 'nativescript-angular/router/router-extensions';
 import { Router } from '@angular/router';
-import { Cat } from '../models/cat.model';
 
 @Component({
     moduleId: module.id,
@@ -12,21 +12,26 @@ import { Cat } from '../models/cat.model';
     templateUrl: "home.html"
 })
 export class HomeComponent implements OnInit { 
-    
- 
 
-    public cats$: Observable<Cat[]>;
+    public yowl: Yowl;
+    name: string;
+    username: string;
+    text: string;
     
     constructor(private routerExtensions: RouterExtensions,
         private firebaseService: FirebaseService,
-        private catService: CatService,
         private router: Router
     ) { }
 
     ngOnInit() {
        this.firebaseService.getMessage();
-       this.cats$ = <any>this.catService.getCats();
-       console.log(JSON.stringify(this.cats$))
+    }
+
+    sendYowl(){
+      this.yowl = new Yowl()
+        this.firebaseService.sendYowl(this.yowl).then((message:any) => {
+            alert(message);
+       }) 
     }
 
     logout() {

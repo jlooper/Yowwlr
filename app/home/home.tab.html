@@ -1,4 +1,17 @@
-<FlexboxLayout class="row" flexDirection="row" *ngFor="let cat of (cats$ | async)">
+<ScrollView>  
+  <ListView
+    [items]="yowls$ | async" class="list">
+    <template let-item="item">  
+        <StackLayout orientation="horizontal" class="line-item">
+          <GridLayout columns="1*,1*,1*,1*" rows="*">
+            <Label col="0" class="line-item-text" [text]='item.name'></Label>
+          </GridLayout>
+        </StackLayout>    
+    </template>
+  </ListView> 
+</ScrollView>
+
+<!--<FlexboxLayout class="row" flexDirection="row" *ngFor="let cat of (cats$ | async)">
     <FlexboxLayout flexDirection="column" width="25%" flexWrap="nowrap" alignItems="flex-start">
         <Image src="~/images/k1"></Image>
     </FlexboxLayout>
@@ -20,7 +33,7 @@
         </FlexboxLayout>
 
     </FlexboxLayout>
-</FlexboxLayout>
+</FlexboxLayout>-->
 
 <!--<FlexboxLayout class="row" flexDirection="row">
     <FlexboxLayout flexDirection="column" width="25%" flexWrap="nowrap" alignItems="flex-start">

@@ -4,9 +4,8 @@ import { platformNativeScriptDynamic } from "nativescript-angular/platform";
 import { AppModule } from "./app.module";
 import { BackendService } from "./services/backend.service";
 const dialogs = require("ui/dialogs");
+import firebase = require("nativescript-plugin-firebase");
 
-
- let firebase = require("nativescript-plugin-firebase");
  firebase.init({
    onPushTokenReceivedCallback: function(token) {
      console.log("Firebase push token: " + token);
@@ -20,7 +19,7 @@ const dialogs = require("ui/dialogs");
    },
    //persist should be set to false as otherwise numbers aren't returned during livesync
    persist: false,
-   //storageBucket: 'gs://yowwlr.appspot.com',
+   storageBucket: 'gs://yowwlr.appspot.com',
    onAuthStateChanged: (data: any) => {
      console.log(JSON.stringify(data))
      if (data.loggedIn) {

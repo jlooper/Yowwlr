@@ -1,4 +1,6 @@
 import { Component, OnInit } from "@angular/core";
+import { Observable } from 'rxjs/Observable';
+import { BackendService, FirebaseService } from "../services";
 
 @Component({
     moduleId: module.id,
@@ -7,10 +9,15 @@ import { Component, OnInit } from "@angular/core";
 })
 export class HomeTabComponent implements OnInit {
 
-    public constructor() {}
+    public constructor(
+        private firebaseService: FirebaseService
+    ) {}
 
+    public yowls$: Observable<any>;
+    
     public ngOnInit() {
-        console.log("init Tab 1");
+        //this.yowls$ = <any>this.firebaseService.getYowls();
+        //console.log(JSON.stringify(this.yowls$))
     }
 
 }
