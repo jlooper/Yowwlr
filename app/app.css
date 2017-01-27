@@ -1,3 +1,51 @@
+Label {
+  padding-left: 5;
+  padding-right: 5;
+}
+
+Image {
+  margin: 4;
+}
+
+ActionBar {
+  background-color: white;
+}
+
+Button {
+  text-align: left; 
+  padding-left: 3;
+}
+.container {
+  border-bottom-width: 1;
+  border-color: lightgray;
+  justify-content: flex-start;
+}
+.row {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding-top: 5;
+  padding-bottom: 10;
+
+}
+.column {
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.bold {
+  font-size: 15;
+  font-weight: bold;
+}
+
+.small {
+  font-size: 15;
+  color: darkgray;
+}
+
+.regular {
+  font-size: 15;
+}
 
 .fa {
   font-family: FontAwesome, fontawesome-webfont;
@@ -11,21 +59,5 @@
   color: deepskyblue;
 }
 
-Label {
-  padding-left: 5;
-  padding-right: 5;
-}
-
-Image {
-  margin: 4;
-}
-
-ActionBar {
-  background-color: white;
-}
-.row {
-  border-bottom-width: 1;
-  border-color: lightgray;
-}
 
 @import 'nativescript-theme-core/css/core.light.css';

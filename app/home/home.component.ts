@@ -26,11 +26,10 @@ export class HomeComponent implements OnInit {
     constructor(private routerExtensions: RouterExtensions,
         private firebaseService: FirebaseService,
         private router: Router
-    ) { }
+    ) {}
 
-    ngOnInit() {
+    ngOnInit() {        
        this.firebaseService.getMessage();
-       this.yowls$ = <any>this.firebaseService.getYowls();
     }
 
     sendYowl(){

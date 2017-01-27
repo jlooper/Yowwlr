@@ -17,7 +17,6 @@ export class HomeTabComponent implements OnInit {
     
     public ngOnInit() {
         this.yowls$ = <any>this.firebaseService.getYowls();
-        console.log(JSON.stringify(this.yowls$))
     }
 
 }

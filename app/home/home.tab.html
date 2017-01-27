@@ -1,24 +1,21 @@
-<FlexboxLayout class="row" flexDirection="row" *ngFor="let yowl of (yowls$ | async)">
-    <FlexboxLayout flexDirection="column" width="25%" flexWrap="nowrap" alignItems="flex-start">
-        <Image src="~/images/k1"></Image>
-    </FlexboxLayout>
-
-    <FlexboxLayout flexDirection="row" flexWrap="wrap" alignItems="flex-start">
-        <Label [text]="yowl.name" fontSize="15"></Label>
-        <Label [text]="yowl.username" fontSize="11"></Label>
-        <Label text="33s" fontSize="11"></Label>
-        <Button alignSelf="flex-end"[text]="'fa-chevron-down' | fonticon" class="fa grey"></Button>
-
-        <Label textWrap="true" [text]="yowl.text"
-            fontSize="12"></Label>
-
-        <FlexboxLayout flexDirection="row">
-            <Button width="25%" flexGrow="1" [text]="'fa-mail-reply' | fonticon" class="fa grey"></Button>
-            <Button width="25%" flexGrow="1" [text]="'fa-retweet' | fonticon" class="fa grey"></Button>
-            <Button width="25%" flexGrow="1" [text]="'fa-heart' | fonticon" class="fa grey"></Button>
-            <Button width="25%" flexGrow="1" [text]="'fa-envelope' | fonticon" class="fa grey"></Button>
+    <FlexboxLayout class="container" *ngFor="let yowl of (yowls$ | async)">
+        <FlexboxLayout class="column">
+            <Image src="~/images/k1" width="120" height="50"></Image>
         </FlexboxLayout>
-
+        <FlexboxLayout class="column">
+            <FlexboxLayout class="row">
+                <Label class="bold" [text]="yowl.name"></Label>
+                <Label class="small" [text]="'@'+yowl.username"></Label>
+                <Label class="small" [text]='yowl.date | date:"ss"' fontSize="15"></Label>
+            </FlexboxLayout>
+            <FlexboxLayout class="row">
+                <Label class="regular" textWrap="true" [text]="yowl.text"></Label>
+            </FlexboxLayout>
+            <FlexboxLayout class="row">
+            <Button width="25%" [text]="'fa-mail-reply' | fonticon" class="fa grey"></Button>
+            <Button width="25%" [text]="'fa-retweet' | fonticon" class="fa grey"></Button>
+            <Button width="25%" [text]="'fa-heart' | fonticon" class="fa grey"></Button>
+            <Button width="25%" [text]="'fa-envelope' | fonticon" class="fa grey"></Button>
+        </FlexboxLayout>
+        </FlexboxLayout>
     </FlexboxLayout>
-   
-</FlexboxLayout>
