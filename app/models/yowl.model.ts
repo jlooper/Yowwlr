@@ -1,5 +1,12 @@
 export class Yowl {
-    name: string;
-    username: string;
-    text: string;
+    constructor
+      (
+        public id: string,
+        public name: string,
+        public username: string,
+        public text: string,
+        public date: string,
+        public UID: string 
+      )
+    {}   
 }

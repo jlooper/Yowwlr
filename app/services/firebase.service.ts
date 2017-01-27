@@ -111,7 +111,11 @@ private _allYowls: Array<Yowl> = [];
   }
 
    publishUpdates() {
-    // here, we sort must emit a *new* value (immutability!)
+    this._allYowls.sort(function(a, b){
+        if(a.date < b.date) return -1;
+        if(a.date > b.date) return 1;
+      return 0;
+    })
     this.yowls.next([...this._allYowls]);
   }
 

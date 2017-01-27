@@ -1,52 +1,15 @@
-<ScrollView>  
-  <ListView
-    [items]="yowls$ | async" class="list">
-    <template let-item="item">  
-        <StackLayout orientation="horizontal" class="line-item">
-          <GridLayout columns="1*,1*,1*,1*" rows="*">
-            <Label col="0" class="line-item-text" [text]='item.name'></Label>
-          </GridLayout>
-        </StackLayout>    
-    </template>
-  </ListView> 
-</ScrollView>
-
-<!--<FlexboxLayout class="row" flexDirection="row" *ngFor="let cat of (cats$ | async)">
+<FlexboxLayout class="row" flexDirection="row" *ngFor="let yowl of (yowls$ | async)">
     <FlexboxLayout flexDirection="column" width="25%" flexWrap="nowrap" alignItems="flex-start">
         <Image src="~/images/k1"></Image>
     </FlexboxLayout>
 
     <FlexboxLayout flexDirection="row" flexWrap="wrap" alignItems="flex-start">
-        <Label text="cat.name" fontSize="15"></Label>
-        <Label text="cat.userid" fontSize="11"></Label>
-        <Label text="cat.time" fontSize="11"></Label>
-        <Button alignSelf="flex-end"[text]="'fa-chevron-down' | fonticon" class="fa grey"></Button>
-
-        <Label textWrap="true" text="cat.text"
-            fontSize="12"></Label>
-
-        <FlexboxLayout flexDirection="row">
-            <Button width="25%" flexGrow="1" [text]="'fa-mail-reply' | fonticon" class="fa grey"></Button>
-            <Button width="25%" flexGrow="1" [text]="'fa-retweet' | fonticon" class="fa grey"></Button>
-            <Button width="25%" flexGrow="1" [text]="'fa-heart' | fonticon" class="fa grey"></Button>
-            <Button width="25%" flexGrow="1" [text]="'fa-envelope' | fonticon" class="fa grey"></Button>
-        </FlexboxLayout>
-
-    </FlexboxLayout>
-</FlexboxLayout>-->
-
-<!--<FlexboxLayout class="row" flexDirection="row">
-    <FlexboxLayout flexDirection="column" width="25%" flexWrap="nowrap" alignItems="flex-start">
-        <Image src="~/images/k1"></Image>
-    </FlexboxLayout>
-
-    <FlexboxLayout flexDirection="row" flexWrap="wrap" alignItems="flex-start">
-        <Label text="Fluffy Smith" fontSize="15"></Label>
-        <Label text="@fluffysmith" fontSize="11"></Label>
+        <Label [text]="yowl.name" fontSize="15"></Label>
+        <Label [text]="yowl.username" fontSize="11"></Label>
         <Label text="33s" fontSize="11"></Label>
         <Button alignSelf="flex-end"[text]="'fa-chevron-down' | fonticon" class="fa grey"></Button>
 
-        <Label textWrap="true" text="Chase mice mark territory or intently stare at the same spot. Give attitude hunt anything that moves so inspect anything brought into house"
+        <Label textWrap="true" [text]="yowl.text"
             fontSize="12"></Label>
 
         <FlexboxLayout flexDirection="row">
@@ -57,75 +20,5 @@
         </FlexboxLayout>
 
     </FlexboxLayout>
+   
 </FlexboxLayout>
-
-<FlexboxLayout class="row" flexDirection="row">
-    <FlexboxLayout flexDirection="column" width="25%" flexWrap="nowrap" alignItems="flex-start">
-        <Image src="~/images/k2"></Image>
-    </FlexboxLayout>
-
-    <FlexboxLayout flexDirection="row" flexWrap="wrap">
-        <Label text="Pinky Pawkins" fontSize="15"></Label>
-        <Label text="@pinkypawkins" horizontalAlignment="left" fontSize="11"></Label>
-        <Label text="33s" horizontalAlignment="left" fontSize="11"></Label>
-        <Button [text]="'fa-chevron-down' | fonticon" class="fa grey"></Button>
-
-        <Label textWrap="true" text="Caticus cuteicus who's the baby the dog smells bad yet eat prawns daintily with a claw then lick paws clean wash down prawns"
-            fontSize="12"></Label>
-
-        <FlexboxLayout flexDirection="row">
-            <Button width="25%" flexGrow="1" [text]="'fa-mail-reply' | fonticon" class="fa grey"></Button>
-            <Button width="25%" flexGrow="1" [text]="'fa-retweet' | fonticon" class="fa grey"></Button>
-            <Button width="25%" flexGrow="1" [text]="'fa-heart' | fonticon" class="fa grey"></Button>
-            <Button width="25%" flexGrow="1" [text]="'fa-envelope' | fonticon" class="fa grey"></Button>
-        </FlexboxLayout>
-
-    </FlexboxLayout>
-</FlexboxLayout>
-
-<FlexboxLayout class="row" flexDirection="row">
-    <FlexboxLayout flexDirection="column" width="25%" flexWrap="nowrap" alignItems="flex-start">
-        <Image src="~/images/k3"></Image>
-    </FlexboxLayout>
-
-    <FlexboxLayout flexDirection="row" flexWrap="wrap">
-        <Label text="Mr. Grumps" fontSize="15"></Label>
-        <Label text="@mrgrumps" horizontalAlignment="left" fontSize="11"></Label>
-        <Label text="1h" horizontalAlignment="left" fontSize="11"></Label>
-        <Button [text]="'fa-chevron-down' | fonticon" class="fa grey"></Button>
-
-        <Label textWrap="true" text="i am the best yet with tail in the air. And sometimes switches in french and say miaou just because well why not chase red laser dot hiss."
-            fontSize="12"></Label>
-
-        <FlexboxLayout flexDirection="row">
-            <Button width="25%" flexGrow="1" [text]="'fa-mail-reply' | fonticon" class="fa grey"></Button>
-            <Button width="25%" flexGrow="1" [text]="'fa-retweet' | fonticon" class="fa grey"></Button>
-            <Button width="25%" flexGrow="1" [text]="'fa-heart' | fonticon" class="fa grey"></Button>
-            <Button width="25%" flexGrow="1" [text]="'fa-envelope' | fonticon" class="fa grey"></Button>
-        </FlexboxLayout>
-
-    </FlexboxLayout>
-</FlexboxLayout>
-
-<FlexboxLayout class="row" flexDirection="row">
-    <FlexboxLayout flexDirection="column" width="25%" flexWrap="nowrap" alignItems="flex-start">
-        <Image src="~/images/k4"></Image>
-    </FlexboxLayout>
-
-    <FlexboxLayout flexDirection="row" flexWrap="wrap">
-        <Label text="Madame Abla" fontSize="15"></Label>
-        <Label text="@mmeabla" horizontalAlignment="left" fontSize="11"></Label>
-        <Label text="1d" horizontalAlignment="left" fontSize="11"></Label>
-        <Button [text]="'fa-chevron-down' | fonticon" class="fa grey"></Button>
-
-        <Label textWrap="true" text="Chase ball of string. if it fits, i sits. Put butt in owner's face daintily." fontSize="12"></Label>
-
-        <FlexboxLayout flexDirection="row">
-            <Button width="25%" flexGrow="1" [text]="'fa-mail-reply' | fonticon" class="fa grey"></Button>
-            <Button width="25%" flexGrow="1" [text]="'fa-retweet' | fonticon" class="fa grey"></Button>
-            <Button width="25%" flexGrow="1" [text]="'fa-heart' | fonticon" class="fa grey"></Button>
-            <Button width="25%" flexGrow="1" [text]="'fa-envelope' | fonticon" class="fa grey"></Button>
-        </FlexboxLayout>
-
-    </FlexboxLayout>
-</FlexboxLayout>-->

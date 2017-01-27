@@ -14,9 +14,14 @@ import { Router } from '@angular/router';
 export class HomeComponent implements OnInit { 
 
     public yowl: Yowl;
+    id: string;
     name: string;
     username: string;
     text: string;
+    date: string;
+    UID: string
+
+    public yowls$: Observable<any>;
     
     constructor(private routerExtensions: RouterExtensions,
         private firebaseService: FirebaseService,
@@ -25,10 +30,18 @@ export class HomeComponent implements OnInit {
 
     ngOnInit() {
        this.firebaseService.getMessage();
+       this.yowls$ = <any>this.firebaseService.getYowls();
     }
 
     sendYowl(){
-      this.yowl = new Yowl()
+      this.yowl = new Yowl(
+          this.id,
+          this.name,
+          this.username,
+          this.text,
+          this.date,
+          this.UID,
+      )
         this.firebaseService.sendYowl(this.yowl).then((message:any) => {
             alert(message);
        }) 
