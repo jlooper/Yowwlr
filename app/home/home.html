@@ -7,10 +7,11 @@
     </ActionItem>
 </ActionBar>
 
-
 <TabView #tabview [selectedIndex]="tabindex" class="tab-view">
     <StackLayout align="top" *tabItem="{title: 'Home', iconSource:'res://home'}">
-        <home-tab></home-tab>
+            <home-tab></home-tab>
+    </StackLayout>
+    <StackLayout *tabItem="{title: 'Explore', iconSource:'res://notifications'}">
     </StackLayout>
     <StackLayout *tabItem="{title: 'Notifications', iconSource:'res://notifications'}">
         <Label class="fa" [text]="'fa-plus' | fonticon"></Label>
