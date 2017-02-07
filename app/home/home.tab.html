@@ -1,26 +1,37 @@
 <ScrollView> 
     <StackLayout>
         <FlexboxLayout class="container" *ngFor="let yowl of (yowls$ | async)">
+            
             <FlexboxLayout class="column">
                 <Image src="~/images/k2" width="120" height="50"></Image>
             </FlexboxLayout>
+            
             <FlexboxLayout class="column">
-                <FlexboxLayout class="row">
+                
+                <FlexboxLayout class="row pad">
                     <Label class="bold" [text]="yowl.name"></Label>
                     <Label class="small" [text]="'@'+yowl.username"></Label>
                     <Label [text]="'fa-circle' | fonticon" class="fa grey tiny"></Label>
                     <Label class="small" text="{{yowl.date | date:'ss'}} m" fontSize="15"></Label>
                 </FlexboxLayout>
-                <!-- tweet -->
+                
+                <!-- yowl -->
                 <FlexboxLayout class="row">
                     <Label class="regular" textWrap="true" [text]="yowl.text"></Label>
                 </FlexboxLayout>
-                <!-- quoted tweet -->
-                <FlexboxLayout class="row" borderWidth="1" borderColor="lightgray" borderRadius="2">
-                    <Label class="ry" textWrap="true" text="this is a RT"></Label>
-                </FlexboxLayout>
+                
+                <!-- re-yowl -->
+                <StackLayout class="ry" borderWidth="1" borderColor="lightgray" borderRadius="2">
+                    <FlexboxLayout class="row">
+                        <Label class="bold" text="Mrs. Fluffypants"></Label>
+                        <Label class="small" text="@mrsfluffypants"></Label>
+                    </FlexboxLayout> 
+                    <FlexboxLayout class="row">
+                        <Label class="regular" textWrap="true" text="Reading your tweets is like lapping up a wonderful bowl of sweet cream. Yummmmy!!!!"></Label>
+                    </FlexboxLayout>                   
+                </StackLayout>
 
-                <FlexboxLayout class="row">
+                <FlexboxLayout class="row pad">
                     <Button width="25%" [text]="'fa-mail-reply' | fonticon" class="fa grey"></Button>
                     <Button width="25%" [text]="'fa-retweet' | fonticon" class="fa grey"></Button>
                     <Button width="25%" [text]="'fa-heart' | fonticon" class="fa grey"></Button>
