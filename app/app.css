@@ -15,6 +15,10 @@ Button {
   text-align: left; 
   padding-left: 3;
 }
+.card {
+  padding: 4;
+  margin: 4;
+}
 .container {
   border-bottom-width: 1;
   border-color: lightgray;
@@ -26,7 +30,7 @@ Button {
   align-items: flex-start;
   padding-top: 5;
   padding-bottom: 10;
-
+  margin: 5;
 }
 .column {
   flex-direction: column;
@@ -43,8 +47,17 @@ Button {
   color: darkgray;
 }
 
+.tiny {
+  font-size: 5;
+  padding-top: 7;
+}
+
 .regular {
   font-size: 15;
+}
+
+.large {
+  font-size: 20;
 }
 
 .fa {
@@ -56,8 +69,12 @@ Button {
 }
 
 .blue {
-  color: deepskyblue;
+  color: #4099FF;
 }
-
+/*re-yowl*/
+.ry {
+  font-size: 12;
+  margin: 2;
+}
 
 @import 'nativescript-theme-core/css/core.light.css';

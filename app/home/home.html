@@ -1,29 +1,26 @@
-<ActionBar title="Yowwlr" icon="">
+<ActionBar>
     <ActionItem ios.position="left">
-        <Button [text]="'fa-user-plus' | fonticon" class="fa blue"></Button>
+        <Button [text]="'fa-user-plus' | fonticon" class="fa blue large"></Button>
     </ActionItem>
+    <Image src="res://minilogo"></Image>
     <ActionItem ios.position="right" (tap)="sendYowl()">
-        <Button [text]="'fa-pencil-square-o' | fonticon" class="fa blue"></Button>
+        <Button [text]="'fa-pencil-square-o' | fonticon" class="fa blue large"></Button>
     </ActionItem>
 </ActionBar>
 
-<TabView #tabview [selectedIndex]="tabindex" class="tab-view">
+<TabView #tabview [selectedIndex]="tabindex" class="tab-view" selectedColor="#4099FF">
     
     <StackLayout align="top" *tabItem="{title: 'Home', iconSource:'res://home'}">
         <home-tab></home-tab>
     </StackLayout>
     <StackLayout *tabItem="{title: 'Explore', iconSource:'res://explore'}">
+    <Label class="border" borderWidth="5" borderColor="black" text="hey"></Label>
     </StackLayout>
     <StackLayout *tabItem="{title: 'Notifications', iconSource:'res://notifications'}">
-        <Label class="fa" [text]="'fa-plus' | fonticon"></Label>
-        <Label text="NativeScript" textWrap="true" class="h2 m-x-auto" color="blue"></Label>
     </StackLayout>
     <StackLayout *tabItem="{title: 'Messages', iconSource:'res://messages'}">
-        <Label text="NativeScript" textWrap="true" class="h2 m-x-auto" color="blue"></Label>
     </StackLayout>
     <StackLayout *tabItem="{title: 'Me', iconSource:'res://me'}">
-        <Image class="m-t-30 m-b-15" src="res://icon" width="80" height="80"></Image>
-        <Label text="NativeScript" textWrap="true" class="h2 m-x-auto" color="blue"></Label>
     </StackLayout>
    
 </TabView>
