@@ -2,9 +2,7 @@
     <StackLayout>
         <FlexboxLayout class="container" *ngFor="let yowl of (yowls$ | async)">
 
-            <FlexboxLayout class="column">
-                <Image src="~/images/k2" width="120" height="75"></Image>
-            </FlexboxLayout>
+            <Image class="column" src="~/images/k2" width="120" height="75"></Image>
 
             <FlexboxLayout class="column">
 
@@ -17,19 +15,17 @@
                 </FlexboxLayout>
 
                 <!-- yowl -->
-                <FlexboxLayout class="row">
-                    <Label class="regular" textWrap="true" [text]="yowl.text"></Label>
-                </FlexboxLayout>
+                <Label class="row regular" textWrap="true" [text]="yowl.text"></Label>
 
                 <!-- re-yowl -->
                 <FlexboxLayout class="column ry" borderWidth="1" borderColor="lightgray" borderRadius="2">
                     <FlexboxLayout class="row">
                         <Label class="bold" text="Mrs. Fluffypants"></Label>
                         <Label class="small" text="@mrsfluffypants"></Label>
-                    </FlexboxLayout> 
-                    <FlexboxLayout class="row">
-                        <Label class="regular" textWrap="true" text="Reading your tweets is like lapping up a wonderful bowl of sweet cream. Yummmmy!!!!"></Label>
-                    </FlexboxLayout>                   
+                    </FlexboxLayout>
+                    
+                    <Label class="row regular" textWrap="true" text="Reading your tweets is like lapping up a wonderful bowl of sweet cream. Yummmmy!!!!"></Label>
+                    
                 </FlexboxLayout>
 
                 <FlexboxLayout class="row pad">
