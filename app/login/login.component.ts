@@ -62,7 +62,7 @@ export class LoginComponent {
 
     prompt({
       title: "Forgot Password",
-      message: "Enter the email address you used to register for Giftler to reset your password.",
+      message: "Enter the email address you used to register for Yowwlr to reset your password.",
       defaultText: "",
       okButtonText: "Ok",
       cancelButtonText: "Cancel"

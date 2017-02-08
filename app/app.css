@@ -22,7 +22,7 @@ Button {
 .container {
   border-bottom-width: 1;
   border-color: lightgray;
-  justify-content: flex-start;
+  align-items: flex-start;
   padding: 5;
 }
 
@@ -80,6 +80,7 @@ Button {
   font-size: 12;
   margin: 2;
   margin-top: 10;
+  padding: 5;
 }
 
 /*.border {

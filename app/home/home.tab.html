@@ -1,28 +1,28 @@
-<ScrollView> 
+<ScrollView>
     <StackLayout>
         <FlexboxLayout class="container" *ngFor="let yowl of (yowls$ | async)">
-            
+
             <FlexboxLayout class="column">
                 <Image src="~/images/k2" width="120" height="75"></Image>
             </FlexboxLayout>
-            
+
             <FlexboxLayout class="column">
-                
-                <FlexboxLayout class="row pad">
+
+                <FlexboxLayout class="row pad" justifyContent="space-between">
                     <Label class="bold" [text]="yowl.name"></Label>
                     <Label class="small" [text]="'@'+yowl.username"></Label>
                     <Label [text]="'fa-circle' | fonticon" class="fa grey tiny"></Label>
-                    <Label class="small" text="{{yowl.date | date:'ss'}} m"></Label>
+                    <Label class="small" text="{{yowl.date | date:'mm'}} m"></Label>
                     <Label [text]="'fa-chevron-down' | fonticon" class="fa grey small"></Label>
                 </FlexboxLayout>
-                
+
                 <!-- yowl -->
                 <FlexboxLayout class="row">
                     <Label class="regular" textWrap="true" [text]="yowl.text"></Label>
                 </FlexboxLayout>
-                
+
                 <!-- re-yowl -->
-                <!--<StackLayout class="ry" borderWidth="1" borderColor="lightgray" borderRadius="2">
+                <FlexboxLayout class="column ry" borderWidth="1" borderColor="lightgray" borderRadius="2">
                     <FlexboxLayout class="row">
                         <Label class="bold" text="Mrs. Fluffypants"></Label>
                         <Label class="small" text="@mrsfluffypants"></Label>
@@ -30,7 +30,7 @@
                     <FlexboxLayout class="row">
                         <Label class="regular" textWrap="true" text="Reading your tweets is like lapping up a wonderful bowl of sweet cream. Yummmmy!!!!"></Label>
                     </FlexboxLayout>                   
-                </StackLayout>-->
+                </FlexboxLayout>
 
                 <FlexboxLayout class="row pad">
                     <Button width="25%" [text]="'fa-mail-reply' | fonticon" class="fa grey"></Button>
