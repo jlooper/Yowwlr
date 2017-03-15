@@ -15,6 +15,8 @@ export class FirebaseService {
 
 yowls: BehaviorSubject<Array<Yowl>> = new BehaviorSubject([]);
 private _allYowls: Array<Yowl> = [];
+chats: BehaviorSubject<Array<Yowl>> = new BehaviorSubject([]);
+private _allChats: Array<Yowl> = [];
 
   getMessage(){ 
     firebase.addOnMessageReceivedCallback(function (data ){
@@ -73,7 +75,6 @@ private _allYowls: Array<Yowl> = [];
         let onValueEvent = (snapshot: any) => {
           this.ngZone.run(() => {
             let results = this.handleSnapshot(snapshot.value);
-            console.log(JSON.stringify(results))
              observer.next(results);
           });
         };
@@ -88,11 +89,37 @@ private _allYowls: Array<Yowl> = [];
       for (let id in data) {        
         let result = (<any>Object).assign({id: id}, data[id]);
           this._allYowls.push(result);
-          console.log(JSON.stringify(result))
       }
       this.publishUpdates();
     }
     return this._allYowls;
+  }
+
+  getChats(): Observable<any> {
+    return new Observable((observer: any) => {
+      let path = 'Chats';
+      
+        let onValueEvent = (snapshot: any) => {
+          this.ngZone.run(() => {
+            let results = this.handleChatSnapshot(snapshot.value);
+             observer.next(results);
+          });
+        };
+        firebase.addValueEventListener(onValueEvent, `/${path}`);
+    }).share();              
+  }
+
+  handleChatSnapshot(data: any) {
+    //empty array, then refill and filter
+    this._allChats = [];
+    if (data) {
+      for (let id in data) {        
+        let result = (<any>Object).assign({id: id}, data[id]);
+          this._allChats.push(result);
+      }
+      this.publishChatUpdates();
+    }
+    return this._allChats;
   }
 
   sendYowl(Yowl:any) {
@@ -102,8 +129,22 @@ private _allYowls: Array<Yowl> = [];
         { "name": "Mr. Growlllr", "username": "MrGrwwlr", "text": "Yooowwwwlll!", "UID": BackendService.token, "date": 0 - Date.now()}
       ).then(
         function (result:any) {
-          console.log(JSON.stringify(result))
           return 'Yowwled!';
+        },
+        function (errorMessage:any) {
+          console.log(errorMessage);
+        }); 
+  }
+
+  chat(message:string) {
+    //let chat = Chat; 
+    console.log(message)  
+    return firebase.push(
+        "/Chats",
+        { "message": message, "to": "MrGrwwlr", "from": BackendService.token, "date": 0 - Date.now()}
+      ).then(
+        function (result:any) {
+          return "chatted";
         },
         function (errorMessage:any) {
           console.log(errorMessage);
@@ -117,6 +158,15 @@ private _allYowls: Array<Yowl> = [];
       return 0;
     })
     this.yowls.next([...this._allYowls]);
+  }
+
+  publishChatUpdates() {
+    this._allChats.sort(function(a, b){
+        if(a.date > b.date) return -1;
+        if(a.date < b.date) return 1;
+      return 0;
+    })
+    this.chats.next([...this._allChats]);
   }
 
   handleErrors(error) {

@@ -1,0 +1,43 @@
+.msg {
+    font-size: 14;
+    padding: 5;
+}
+
+.me .msg_text {
+    background-color: #30A9FF;
+    color: white;
+    padding: 8;
+    margin-right: 10;
+    border-radius: 5;
+    
+}
+
+.them .msg_text {
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 7;
+    border-radius: 5;
+    margin-right: 40;
+}
+
+.authorimg {
+    margin: 0 5 5 5;
+    width: 30;
+    height: 30;
+    border-radius: 15;
+}
+
+.chatTextField {
+    padding: 5; 
+    background-color: lightgray; 
+    border-radius: 4;
+}
+
+Button {
+    padding: 5;
+    margin: 5;
+    background-color: dodgerblue;
+    color: white;
+    height: 40;
+    border-radius: 5;
+}

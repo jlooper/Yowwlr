@@ -5,6 +5,7 @@ import {TNSFontIconModule, TNSFontIconService, TNSFontIconPipe, TNSFontIconPureP
 import { homeRouting } from "./home.routes";
 import { HomeComponent } from "./home.component";
 import { HomeTabComponent } from './home.tab.component';
+import { ChatTabComponent } from '../chat/chat.tab.component';
 
 @NgModule({
   imports: [
@@ -17,7 +18,8 @@ import { HomeTabComponent } from './home.tab.component';
   ],
   declarations: [    
     HomeComponent,
-    HomeTabComponent    
+    HomeTabComponent,
+    ChatTabComponent    
   ]
 })
 export class HomeModule {}

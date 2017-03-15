@@ -6,6 +6,6 @@ import { AuthGuard } from "../auth-guard.service";
 
 
 const homeRoutes: Routes = [
-  { path: "", component: HomeComponent, canActivate: [AuthGuard] },
+  { path: "", component: HomeComponent, canActivate: [AuthGuard] }
 ];
 export const homeRouting: ModuleWithProviders = RouterModule.forChild(homeRoutes);
