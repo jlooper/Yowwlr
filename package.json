@@ -13,30 +13,27 @@
     }
   },
   "dependencies": {
-    "@angular/common": "2.2.1",
-    "@angular/compiler": "2.2.1",
-    "@angular/core": "2.2.1",
-    "@angular/forms": "2.2.1",
-    "@angular/http": "2.2.1",
-    "@angular/platform-browser": "2.2.1",
-    "@angular/platform-browser-dynamic": "2.2.1",
-    "@angular/router": "3.2.1",
-    "nativescript-angular": "1.2.0",
-    "nativescript-ngx-fonticon": "^2.0.0",
-    "nativescript-plugin-firebase": "^3.10.2",
-    "nativescript-theme-core": "^1.0.2",
+    "@angular/common": "2.4.3",
+    "@angular/compiler": "2.4.3",
+    "@angular/core": "2.4.3",
+    "@angular/forms": "2.4.3",
+    "@angular/http": "2.4.3",
+    "@angular/platform-browser": "2.4.3",
+    "@angular/platform-browser-dynamic": "2.4.3",
+    "@angular/router": "3.4.3",
+    "nativescript-angular": "1.4.0",
+    "nativescript-theme-core": "^1.0.3",
     "reflect-metadata": "~0.1.8",
-    "rxjs": "5.0.0-beta.12",
-    "tns-core-modules": "2.4.4"
+    "rxjs": "~5.0.1",
+    "tns-core-modules": "2.5.1",
+    "nativescript-ngx-fonticon": "^2.1.2",
+    "nativescript-plugin-firebase": "^3.10.2",
+    "nativescript-swiss-army-knife": "^1.0.71"
   },
   "devDependencies": {
-    "babel-traverse": "6.21.0",
-    "babel-types": "6.21.0",
-    "babylon": "6.15.0",
-    "lazy": "1.0.11",
     "nativescript-dev-android-snapshot": "^0.*.*",
-    "nativescript-dev-typescript": "^0.3.2",
-    "typescript": "~2.0.10",
-    "zone.js": "~0.6.21"
+    "nativescript-dev-typescript": "~0.3.5",
+    "typescript": "~2.1.0",
+    "zone.js": "~0.7.2"
   }
 }

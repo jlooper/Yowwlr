@@ -1,3 +1,7 @@
+ListView {
+  separator-color: white;
+}
+
 .msg {
     font-size: 14;
     padding: 5;

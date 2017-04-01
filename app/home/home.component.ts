@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { Page } from "ui/page";
 import { BackendService, FirebaseService } from "../services";
@@ -31,7 +31,7 @@ export class HomeComponent implements OnInit {
     ngOnInit() {        
        this.firebaseService.getMessage();
     }
-
+    
     sendYowl(){
       this.yowl = new Yowl(
           this.id,

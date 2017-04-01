@@ -2,12 +2,12 @@
 
     <ScrollView #scrollview height="90%">
             
-            <ListView padding="5" #list separatorColor="#fff" [items]="chats$ | async" class="list">
-                <template let-item="item">
+            <ListView padding="5" #list [items]="chats$ | async">
+                <template let-i="index" let-item="item">
                     <GridLayout columns="*" rows="auto" class="msg">
                         <StackLayout [class]="filter(item.from)" orientation="horizontal" [horizontalAlignment]="align(item.from)">
                             <Image [visibility]="showImage(item.from)" class="authorimg" stretch="aspectFill" height="30" width="30" verticalAlignment="top" src="~/images/k1.png" col="1"></Image>
-                            <Label [text]="item.message" class="msg_text" textWrap="true" verticalAlignment="top"></Label>
+                            <Label [text]='item.message' class="msg_text" textWrap="true" verticalAlignment="top"></Label>
                         </StackLayout>
                     </GridLayout>
                 </template>
@@ -15,7 +15,7 @@
 
     </ScrollView>
 
-    <StackLayout height="10%">
+    <StackLayout #chatbox height="10%">
         <GridLayout columns="*,auto" style="padding: 10">
             <TextField #textfield class="chatTextField" row="0" col="0" [(ngModel)]="message"></TextField>
             <Button #btn class="chatBtn" row="0" col="1" text="send" (tap)=chat(message)></Button>
