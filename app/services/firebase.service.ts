@@ -41,8 +41,10 @@ private _allChats: Array<Yowl> = [];
   login(user: User) {
     return firebase.login({
       type: firebase.LoginType.PASSWORD,
-      email: user.email,
-      password: user.password
+      passwordOptions: {
+        email: user.email,
+        password: user.password
+      }
     }).then((result: any) => {
           BackendService.token = result.uid;
           return JSON.stringify(result);
