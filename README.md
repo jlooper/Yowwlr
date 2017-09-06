@@ -14,6 +14,8 @@ and
 
 For a different way of building this app, try a [NativeScript Snacklab](http://www.nativescriptsnacks.com/snacklabs.html)!
 
+![Chat Cats](chat-cats.gif)
+
 
 
 
