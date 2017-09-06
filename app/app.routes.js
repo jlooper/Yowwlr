@@ -1,9 +1,0 @@
-"use strict";
-var auth_guard_service_1 = require("./auth-guard.service");
-exports.authProviders = [
-    auth_guard_service_1.AuthGuard
-];
-exports.appRoutes = [
-    { path: "", redirectTo: "/home", pathMatch: "full" }
-];
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLnJvdXRlcy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbImFwcC5yb3V0ZXMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBLG1DQUEwQixzQkFBc0IsQ0FBQyxDQUFBO0FBRXBDLHFCQUFhLEdBQUc7SUFDM0IsOEJBQVM7Q0FDVixDQUFDO0FBRVcsaUJBQVMsR0FBRztJQUN2QixFQUFFLElBQUksRUFBRSxFQUFFLEVBQUUsVUFBVSxFQUFFLE9BQU8sRUFBRSxTQUFTLEVBQUUsTUFBTSxFQUFFO0NBQ3JELENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBBdXRoR3VhcmQgfSBmcm9tIFwiLi9hdXRoLWd1YXJkLnNlcnZpY2VcIjtcblxuZXhwb3J0IGNvbnN0IGF1dGhQcm92aWRlcnMgPSBbXG4gIEF1dGhHdWFyZFxuXTtcblxuZXhwb3J0IGNvbnN0IGFwcFJvdXRlcyA9IFtcbiAgeyBwYXRoOiBcIlwiLCByZWRpcmVjdFRvOiBcIi9ob21lXCIsIHBhdGhNYXRjaDogXCJmdWxsXCIgfVxuXTtcbiJdfQ==
