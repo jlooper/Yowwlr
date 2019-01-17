@@ -1,0 +1,14 @@
+# Development files & folders
+node_modules/*
+platforms/*
+hooks/*
+
+# Transpiled source files
+/app/**/*.js
+/app/**/*.map
+
+# Keystores
+/keystore/
+*.apk
+*.ipa
+*.jks
