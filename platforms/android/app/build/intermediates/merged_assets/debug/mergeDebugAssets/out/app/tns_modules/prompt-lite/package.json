@@ -1,0 +1,64 @@
+{
+  "_from": "prompt-lite@~0.1.0",
+  "_id": "prompt-lite@0.1.1",
+  "_inBundle": false,
+  "_integrity": "sha1-+oSPgboTnn0/Mhdz3a/JPTKFfHU=",
+  "_location": "/prompt-lite",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "prompt-lite@~0.1.0",
+    "name": "prompt-lite",
+    "escapedName": "prompt-lite",
+    "rawSpec": "~0.1.0",
+    "saveSpec": null,
+    "fetchSpec": "~0.1.0"
+  },
+  "_requiredBy": [
+    "/nativescript-plugin-firebase"
+  ],
+  "_resolved": "https://registry.npmjs.org/prompt-lite/-/prompt-lite-0.1.1.tgz",
+  "_shasum": "fa848f81ba139e7d3f321773ddafc93d32857c75",
+  "_spec": "prompt-lite@~0.1.0",
+  "_where": "/Users/niliev/Desktop/repositories/Yowwlr/node_modules/nativescript-plugin-firebase",
+  "author": {
+    "name": "Joshua Holbrook"
+  },
+  "bugs": {
+    "url": "https://github.com/jesusabdullah/prompt-lite/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "async": "~0.1.22",
+    "colors": "0.6.x",
+    "read": "1.0.x",
+    "revalidator": "0.1.x"
+  },
+  "deprecated": false,
+  "description": "A simpler command-line prompt for node.js",
+  "devDependencies": {
+    "vows": "0.7.0"
+  },
+  "engines": {
+    "node": ">= 0.6.6"
+  },
+  "homepage": "https://github.com/jesusabdullah/prompt-lite#readme",
+  "main": "./lib/prompt",
+  "maintainers": [
+    {
+      "name": "joshua Holbrook",
+      "email": "josh.holbrook@gmail.com"
+    }
+  ],
+  "name": "prompt-lite",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jesusabdullah/prompt-lite.git"
+  },
+  "scripts": {
+    "test": "vows test/prompt-test.js --spec",
+    "test-all": "vows --spec"
+  },
+  "version": "0.1.1"
+}

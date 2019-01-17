@@ -1,0 +1,49 @@
+{
+  "_from": "nativescript-theme-core@~1.0.4",
+  "_id": "nativescript-theme-core@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha1-zyiAx/vy/l9D4iNdMJdQeQgD7+E=",
+  "_location": "/nativescript-theme-core",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "nativescript-theme-core@~1.0.4",
+    "name": "nativescript-theme-core",
+    "escapedName": "nativescript-theme-core",
+    "rawSpec": "~1.0.4",
+    "saveSpec": null,
+    "fetchSpec": "~1.0.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-theme-core/-/nativescript-theme-core-1.0.4.tgz",
+  "_shasum": "cf2880c7fbf2fe5f43e2235d309750790803efe1",
+  "_spec": "nativescript-theme-core@~1.0.4",
+  "_where": "/Users/niliev/Desktop/repositories/Yowwlr",
+  "author": {
+    "name": "Telerik",
+    "email": "support@telerik.com"
+  },
+  "bugs": {
+    "url": "https://github.com/NativeScript/theme/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Telerik NativeScript Core Theme",
+  "homepage": "https://www.nativescript.org",
+  "license": "Apache-2.0",
+  "name": "nativescript-theme-core",
+  "nativescript": {
+    "platforms": {
+      "ios": "2.4.0",
+      "android": "2.4.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NativeScript/theme.git"
+  },
+  "version": "1.0.4"
+}

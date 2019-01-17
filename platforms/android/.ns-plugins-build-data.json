@@ -1,0 +1,10 @@
+{
+	"nativescript-plugin-firebase": {
+		"/Users/niliev/Desktop/repositories/Yowwlr/node_modules/nativescript-plugin-firebase/platforms/android/README.md": "6f5f0947725ff2f2cc64f091007af0d53b9cccb9",
+		"/Users/niliev/Desktop/repositories/Yowwlr/node_modules/nativescript-plugin-firebase/platforms/android/firebase-release.aar": "0bd38b3642553b544ba961f5657489e0b28bf86f",
+		"/Users/niliev/Desktop/repositories/Yowwlr/node_modules/nativescript-plugin-firebase/platforms/android/include.gradle": "176e46e691a99861250fefad0a982ba16824ad45"
+	},
+	"tns-core-modules-widgets": {
+		"/Users/niliev/Desktop/repositories/Yowwlr/node_modules/tns-core-modules-widgets/platforms/android/widgets-release.aar": "0adf00f86e29a73b3beb263951c7a10011372516"
+	}
+}

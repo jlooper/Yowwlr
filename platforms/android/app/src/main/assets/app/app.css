@@ -1,0 +1,91 @@
+@import url("~/platform.css");
+
+Label {
+  padding-left: 5;
+  padding-right: 5;
+}
+
+Image {
+  margin: 4;
+}
+
+ActionBar {
+  background-color: white;
+}
+
+.card {
+  padding: 4;
+  margin: 4;
+}
+.container {
+  border-bottom-width: 1;
+  border-color: lightgray;
+  align-items: flex-start;
+  padding: 5;
+}
+
+.row {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+}
+
+.column {
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.pad {
+  padding-top: 10;
+  padding-bottom: 10;
+}
+
+.bold {
+  font-size: 15;
+  font-weight: bold;
+}
+
+.small {
+  font-size: 13;
+  color: darkgray;
+}
+
+.tiny {
+  font-size: 5;
+}
+
+.regular {
+  font-size: 15;
+}
+
+.large {
+  font-size: 20;
+}
+
+.fa {
+  font-family: FontAwesome, fontawesome-webfont;
+}
+
+.grey {
+  color: lightgray;
+}
+
+.blue {
+  color: #4099FF;
+}
+/*re-yowl*/
+.ry {
+  font-size: 12;
+  margin: 2;
+  margin-top: 10;
+  padding: 5;
+}
+
+/*.border {
+  border-width: 1;
+  border-radius: 3;
+  border-color: lightgrey;
+}*/
+
+@import 'nativescript-theme-core/css/core.light.css';
+

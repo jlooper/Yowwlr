@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+var path = require("path");
+var upgrader = require("../tsconfig-upgrader");
+
+var projectDir = path.dirname(path.dirname(path.dirname(__dirname)));
+var tsConfigPath = path.join(projectDir, "tsconfig.json");
+upgrader.migrateTsConfig(tsConfigPath, projectDir);

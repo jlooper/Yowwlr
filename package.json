@@ -4,35 +4,38 @@
   "readme": "NativeScript Application",
   "repository": "<fill-your-repository-here>",
   "nativescript": {
-    "id": "com.ladeezfirstmedia.yowwlr",
+    "id": "org.nativescript.yowwlr",
     "tns-ios": {
-      "version": "3.1.0"
+      "version": "5.1.0"
+    },
+    "tns-android": {
+      "version": "5.1.0"
     }
   },
   "dependencies": {
-    "@angular/common": "~4.1.0",
-    "@angular/compiler": "~4.1.0",
-    "@angular/core": "~4.1.0",
-    "@angular/forms": "~4.1.0",
-    "@angular/http": "~4.1.0",
-    "@angular/platform-browser": "~4.1.0",
-    "@angular/platform-browser-dynamic": "~4.1.0",
-    "@angular/router": "~4.1.0",
-    "nativescript-angular": "3.1.1",
-    "nativescript-ngx-fonticon": "^2.2.3",
-    "nativescript-plugin-firebase": "^4.0.6",
+    "@angular/common": "~7.1.0",
+    "@angular/compiler": "~7.1.0",
+    "@angular/core": "~7.1.0",
+    "@angular/forms": "~7.1.0",
+    "@angular/http": "~7.1.0",
+    "@angular/platform-browser": "~7.1.0",
+    "@angular/platform-browser-dynamic": "~7.1.0",
+    "@angular/router": "~7.1.0",
+    "nativescript-angular": "7.1.0",
+    "nativescript-ngx-fonticon": "^4.2.0",
+    "nativescript-plugin-firebase": "^7.6.1",
     "nativescript-theme-core": "~1.0.4",
     "reflect-metadata": "~0.1.8",
-    "rxjs": "~5.2.0",
-    "tns-core-modules": "3.1.1",
-    "zone.js": "~0.8.2"
+    "rxjs": "^6.3.3",
+    "tns-core-modules": "~5.1.2",
+    "zone.js": "^0.8.4"
   },
   "devDependencies": {
     "babel-traverse": "6.25.0",
     "babel-types": "6.25.0",
     "babylon": "6.17.4",
     "lazy": "1.0.11",
-    "nativescript-dev-typescript": "~0.5.0",
-    "typescript": "~2.2.1"
+    "nativescript-dev-typescript": "~0.7.9",
+    "typescript": "~3.1.1"
   }
 }

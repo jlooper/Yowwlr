@@ -1,0 +1,47 @@
+{
+  "_from": "nativescript-intl@^3.0.0",
+  "_id": "nativescript-intl@3.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-gu6b59N3Fys8QpVzRyMDdijhhqc=",
+  "_location": "/nativescript-intl",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "nativescript-intl@^3.0.0",
+    "name": "nativescript-intl",
+    "escapedName": "nativescript-intl",
+    "rawSpec": "^3.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^3.0.0"
+  },
+  "_requiredBy": [
+    "/nativescript-angular"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-intl/-/nativescript-intl-3.0.0.tgz",
+  "_shasum": "82ee9be7d377172b3c4295734723037628e186a7",
+  "_spec": "nativescript-intl@^3.0.0",
+  "_where": "/Users/niliev/Desktop/repositories/Yowwlr/node_modules/nativescript-angular",
+  "author": {
+    "name": "NativeScript Team"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Provides API for using Native date, time and number formatting with an API similar to Intl.js",
+  "keywords": [
+    "NativeScript",
+    "localization",
+    "globalization",
+    "formatting",
+    "currency",
+    "nativescript-angular"
+  ],
+  "name": "nativescript-intl",
+  "nativescript": {
+    "platforms": {
+      "android": "3.0.0",
+      "ios": "3.0.0"
+    }
+  },
+  "version": "3.0.0"
+}

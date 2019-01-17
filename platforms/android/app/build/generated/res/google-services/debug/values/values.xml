@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">676047634538-4ne6sd68mk7a3190d14032e5hmm2cevd.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://yowwlr-1700c.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">676047634538</string>
+    <string name="google_api_key" translatable="false">AIzaSyDkC6FKchIkBkCJwnp7SLv7aC2YTwZQUWs</string>
+    <string name="google_app_id" translatable="false">1:676047634538:android:526b263787bb1079</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDkC6FKchIkBkCJwnp7SLv7aC2YTwZQUWs</string>
+    <string name="google_storage_bucket" translatable="false">yowwlr-1700c.appspot.com</string>
+    <string name="project_id" translatable="false">yowwlr-1700c</string>
+</resources>

@@ -1,0 +1,45 @@
+<ScrollView>
+    <StackLayout>
+        <FlexboxLayout class="container" *ngFor="let yowl of (yowls$ | async)">
+
+            <Image class="column" src="~/images/k2" width="120" height="75"></Image>
+
+            <FlexboxLayout class="column">
+
+                <FlexboxLayout class="row pad" justifyContent="space-between">
+                    <Label class="bold" [text]="yowl.name"></Label>
+                    <Label class="small" [text]="'@'+yowl.username"></Label>
+                    <Label [text]="'fa-circle' | fonticon" class="fa grey tiny"></Label>
+                    <Label class="small" text="{{yowl.date | date:'mm'}} m"></Label>
+                    <Label [text]="'fa-chevron-down' | fonticon" class="fa grey small"></Label>
+                </FlexboxLayout>
+
+                <!-- yowl -->
+                <Label class="row regular" textWrap="true" [text]="yowl.text"></Label>
+
+                <!-- re-yowl -->
+                <FlexboxLayout class="column ry" borderWidth="1" borderColor="lightgray" borderRadius="2">
+                    
+                    <FlexboxLayout class="row">
+                        <Label class="bold" text="Mrs. Fluffypants"></Label>
+                        <Label class="small" text="@mrsfluffypants"></Label>
+                    </FlexboxLayout>
+                    
+                    <Label class="row regular" textWrap="true" text="Reading your tweets is like lapping up a wonderful bowl of sweet cream. Yummmmy!!!!"></Label>
+                    
+                </FlexboxLayout>
+
+                <FlexboxLayout class="row pad">
+                    <Button width="25%" [text]="'fa-mail-reply' | fonticon" class="fa grey"></Button>
+                    <Button width="25%" [text]="'fa-retweet' | fonticon" class="fa grey"></Button>
+                    <Button width="25%" [text]="'fa-heart' | fonticon" class="fa grey"></Button>
+                    <Button width="25%" [text]="'fa-envelope' | fonticon" class="fa grey"></Button>
+                </FlexboxLayout>
+            
+            </FlexboxLayout>
+        
+        </FlexboxLayout>
+    
+    </StackLayout>
+
+</ScrollView>

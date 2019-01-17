@@ -1,0 +1,74 @@
+{
+  "_from": "nativescript-ngx-fonticon@^4.2.0",
+  "_id": "nativescript-ngx-fonticon@4.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-lmNBF1nJHz3GT2moWdx3fw4Ye7AvRMFkhzeRtPSkP0tnY9JxKs9hCxfNVWC6cqfz3nvmgdwkf7t+jTTGWExbPQ==",
+  "_location": "/nativescript-ngx-fonticon",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "nativescript-ngx-fonticon@^4.2.0",
+    "name": "nativescript-ngx-fonticon",
+    "escapedName": "nativescript-ngx-fonticon",
+    "rawSpec": "^4.2.0",
+    "saveSpec": null,
+    "fetchSpec": "^4.2.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-ngx-fonticon/-/nativescript-ngx-fonticon-4.2.0.tgz",
+  "_shasum": "0b09736b4d5ca69b68d91e07ff62390311553f2e",
+  "_spec": "nativescript-ngx-fonticon@^4.2.0",
+  "_where": "/Users/niliev/Desktop/repositories/Yowwlr",
+  "author": {
+    "name": "Nathan Walker",
+    "email": "walkerrunpdx@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/NathanWalker/nativescript-ngx-fonticon/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Nathanael Anderson",
+      "email": "nathan@master-technology",
+      "url": "https://github.com/nathanaela"
+    },
+    {
+      "name": "Martin Reinhardt",
+      "email": "contact@martinreinhardt-online.de",
+      "url": "https://github.com/hypery2k"
+    }
+  ],
+  "deprecated": false,
+  "description": "Use custom font icon collections seamlessly with NativeScript for Angular.",
+  "homepage": "https://github.com/NathanWalker/nativescript-ngx-fonticon#readme",
+  "keywords": [
+    "angular",
+    "angular2",
+    "ng",
+    "ngx",
+    "ng2",
+    "nativescript",
+    "icon",
+    "font"
+  ],
+  "license": "MIT",
+  "main": "nativescript-ngx-fonticon",
+  "module": "nativescript-ngx-fonticon.js",
+  "name": "nativescript-ngx-fonticon",
+  "nativescript": {
+    "platforms": {
+      "android": "3.0.0",
+      "ios": "3.0.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanWalker/nativescript-ngx-fonticon.git"
+  },
+  "typings": "nativescript-ngx-fonticon.d.ts",
+  "version": "4.2.0"
+}

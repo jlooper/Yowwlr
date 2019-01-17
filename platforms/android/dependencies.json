@@ -1,0 +1,30 @@
+[
+    {
+        "name": "nativescript-angular",
+        "directory": "../../node_modules/nativescript-angular"
+    },
+    {
+        "name": "nativescript-ngx-fonticon",
+        "directory": "../../node_modules/nativescript-ngx-fonticon"
+    },
+    {
+        "name": "nativescript-plugin-firebase",
+        "directory": "../../node_modules/nativescript-plugin-firebase"
+    },
+    {
+        "name": "nativescript-theme-core",
+        "directory": "../../node_modules/nativescript-theme-core"
+    },
+    {
+        "name": "tns-core-modules",
+        "directory": "../../node_modules/tns-core-modules"
+    },
+    {
+        "name": "nativescript-intl",
+        "directory": "../../node_modules/nativescript-intl"
+    },
+    {
+        "name": "tns-core-modules-widgets",
+        "directory": "../../node_modules/tns-core-modules-widgets"
+    }
+]

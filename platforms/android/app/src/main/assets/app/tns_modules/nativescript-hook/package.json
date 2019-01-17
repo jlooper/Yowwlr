@@ -1,0 +1,51 @@
+{
+  "_from": "nativescript-hook@~0.2.4",
+  "_id": "nativescript-hook@0.2.4",
+  "_inBundle": false,
+  "_integrity": "sha1-5ZHh2a1BWotPMwnBVzFXevRKPdQ=",
+  "_location": "/nativescript-hook",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "nativescript-hook@~0.2.4",
+    "name": "nativescript-hook",
+    "escapedName": "nativescript-hook",
+    "rawSpec": "~0.2.4",
+    "saveSpec": null,
+    "fetchSpec": "~0.2.4"
+  },
+  "_requiredBy": [
+    "/nativescript-dev-typescript",
+    "/nativescript-plugin-firebase"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-hook/-/nativescript-hook-0.2.4.tgz",
+  "_shasum": "e591e1d9ad415a8b4f3309c15731577af44a3dd4",
+  "_spec": "nativescript-hook@~0.2.4",
+  "_where": "/Users/niliev/Desktop/repositories/Yowwlr/node_modules/nativescript-plugin-firebase",
+  "author": {
+    "name": "NativeScript"
+  },
+  "bugs": {
+    "url": "https://github.com/NativeScript/nativescript-hook/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "glob": "^6.0.1",
+    "mkdirp": "^0.5.1"
+  },
+  "deprecated": false,
+  "description": "Helper module for installing hooks into NativeScript projects",
+  "homepage": "https://github.com/NativeScript/nativescript-hook#readme",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "nativescript-hook",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NativeScript/nativescript-hook.git"
+  },
+  "scripts": {
+    "test": "exit 0"
+  },
+  "version": "0.2.4"
+}

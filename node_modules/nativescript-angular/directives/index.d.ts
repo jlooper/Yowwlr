@@ -1,0 +1,11 @@
+import { ListViewComponent } from "./list-view-comp";
+import { TemplateKeyDirective } from "./templated-items-comp";
+import { TabViewDirective, TabViewItemDirective } from "./tab-view";
+import { ActionBarComponent, ActionBarScope, ActionItemDirective, NavigationButtonDirective } from "./action-bar";
+import { AndroidFilterComponent } from "./platform-filters";
+export { ListViewComponent } from "./list-view-comp";
+export { SetupItemViewArgs, TemplateKeyDirective } from "./templated-items-comp";
+export { TabViewDirective, TabViewItemDirective } from "./tab-view";
+export { ActionBarComponent, ActionBarScope, ActionItemDirective, NavigationButtonDirective } from "./action-bar";
+export { AndroidFilterComponent, IosFilterComponent } from "./platform-filters";
+export declare const NS_DIRECTIVES: (typeof TemplateKeyDirective | typeof ListViewComponent | typeof TabViewDirective | typeof TabViewItemDirective | typeof ActionBarComponent | typeof ActionBarScope | typeof ActionItemDirective | typeof NavigationButtonDirective | typeof AndroidFilterComponent)[];

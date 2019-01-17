@@ -1,0 +1,4 @@
+#Thu Jan 17 10:28:49 EET 2019
+base.0=/Users/niliev/Desktop/repositories/Yowwlr/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
